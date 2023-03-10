@@ -1,0 +1,47 @@
+.movie_card {
+    margin-bottom: 4em;
+    width: 220px;
+    position: relative;
+    opacity: 0.7;
+    transition: .3s linear;
+    margin-bottom: 100px;
+}
+
+.movie_card:hover {
+    opacity: 1;
+}
+
+.movie_card img{
+    border-radius: 20px;
+}
+
+.card_info{
+    padding: 10px;
+}
+
+.star_points{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #252525;
+    padding: 10px 15px;
+    border: 2px solid #f8c537;
+    color: #f8c537;
+    border-radius: 20px; 
+}
+
+.movie_title_card {
+    font-weight: bold;
+    color: #f4f4f4;
+    margin-bottom: .5em;
+    font-size: 1em;
+}
+
+.card_info a{
+    background-color: #a3f7b5;
+    padding: 10px 20px;
+    margin-top: 1em;
+    color: #252525;
+    border-radius: 20px;
+    display: inline-block;
+}

@@ -1,0 +1,48 @@
+.buttons_carrosel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.buttons_carrosel .btn {
+    z-index: 100;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid #a3f7b5;
+    height: 60px;
+    width: 60px;
+    color: #a3f7b5;
+    border-radius: 60px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -3px;
+    transition: transform .2s ease-in-out;
+}
+
+.buttons_carrosel .btn svg{
+    transition: transform .2s ease-in-out;
+}
+
+.buttons_carrosel .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.buttons_carrosel .btn_left:hover svg{
+    transform: translateX(-8px);
+}
+.buttons_carrosel .btn_right:hover svg{
+    transform: translateX(8px);
+}
+
+.buttons_carrosel .btn_left{
+    border-radius: 0px 60px 60px 0px;
+}
+.buttons_carrosel .btn_right {
+    border-radius: 60px 0px 0px 60px;
+}

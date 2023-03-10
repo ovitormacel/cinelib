@@ -1,0 +1,48 @@
+.categoriesSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.moviesList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: space-between;
+}
+
+.card{
+    margin-bottom: 60px;
+}
+
+.genre_btn {
+    width: 140px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #a3f7b5;
+    border: 2px solid #a3f7b5;
+    transition: .2s linear;
+}
+
+.genre_btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.genre_btn.active {
+    background-color: #a3f7b5;
+    color: #000;
+}
+
+.nav_sidebar ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.title_page{
+    margin-bottom: 2em;
+}
